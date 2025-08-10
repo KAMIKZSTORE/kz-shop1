@@ -33,8 +33,8 @@ async function sendEmail(to, subject, body) {
 
     // Send email using EmailJS
     await emailjs.send(
-      'YOUR_EMAILJS_SERVICE_ID', // Replace with your EmailJS service ID
-      'YOUR_EMAILJS_TEMPLATE_ID', // Replace with your EmailJS template ID
+      'service_faxghxt', // Replace with your EmailJS service ID
+      'template_rl1f4xs', // Replace with your EmailJS template ID
       templateParams
     );
     
